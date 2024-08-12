@@ -6,7 +6,6 @@
 {{#test ~x in '-9--5'}}
 {{~setcache 'BAY1' 'true'}}
 {{~fontsize 7}}
-
 {{~set 'E' '<indent=275>║</indent>'}}
 {{~set 'L' (concat '║' @root.data.E)}}
 <line-height=8><color=#FFF>

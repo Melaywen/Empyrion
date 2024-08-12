@@ -1,9 +1,9 @@
 {{~setcache 'BAY1' 'false'}}
 {{~#each E.S.DockedE}}
 {{#globaltostructpos @root.E.S Pos}}
-{{#test ~y in '127-134'}}
-{{#test ~z in '53-64'}}
-{{#test ~x in '-18--8'}}
+{{#test ~y in '70-72'}}
+{{#test ~z in '-22--17'}}
+{{#test ~x in '-5--8'}}
 {{~setcache 'BAY1' 'true'}}
 {{~fontsize 7}}
 {{~set 'E' '<indent=275>║</indent>'}}

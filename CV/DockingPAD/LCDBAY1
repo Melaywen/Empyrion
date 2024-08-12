@@ -1,11 +1,12 @@
 {{~setcache 'BAY1' 'false'}}
 {{~#each E.S.DockedE}}
 {{#globaltostructpos @root.E.S Pos}}
-{{#test ~y in '70-72'}}
-{{#test ~z in '-22--17'}}
-{{#test ~x in '-5--8'}}
+{{#test ~y in '69-73'}}
+{{#test ~z in '-22--16'}}
+{{#test ~x in '-9--5'}}
 {{~setcache 'BAY1' 'true'}}
 {{~fontsize 7}}
+
 {{~set 'E' '<indent=275>║</indent>'}}
 {{~set 'L' (concat '║' @root.data.E)}}
 <line-height=8><color=#FFF>

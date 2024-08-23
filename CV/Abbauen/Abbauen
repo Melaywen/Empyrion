@@ -1,0 +1,19 @@
+{{#entitiesbyname '*' 500}}
+{{#each .}}
+{{#test @root.E.Id neq Id}}
+{{Name}}:
+{{#recycle . 'KonstruktorInput'}}
+min: {{MinPos}}
+max: {{MaxPos}}
+current X: {{X}}
+current Y: {{Y}}
+current Z: {{Z}}
+TotalBlocks: {{TotalBlocks}}
+CheckedBlocks: {{CheckedBlocks}}
+RemovedBlocks: {{RemovedBlocks}}
+{{else}}
+- {{/recycle}}
+
+{{/test}}
+{{/each}}
+{{/entitiesbyname}}
